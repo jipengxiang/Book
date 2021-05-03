@@ -9,6 +9,7 @@ const weatherMiddlware = require('./lib/middleware/weather')
 const app = express()
 
 // configure Handlebars view engine
+// GOT VIEW HAHA
 app.engine('handlebars', expressHandlebars({
   defaultLayout: 'main',
   helpers: {
